@@ -33,7 +33,8 @@
     "noEmit": false,
     "jsx": "react",
     "module": "commonjs",
-    "importHelpers": true
+    "importHelpers": true,
+    "outDir": "./dist"
   },
   "include": [
     "src"
