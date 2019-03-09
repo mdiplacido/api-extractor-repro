@@ -19,17 +19,10 @@
     "strict": true,
     "strictNullChecks": true,
     "target": "es5",
-    // IMPORTANT: THESE SETTINGS ARE THE MAGIC SET TO PRODUCE THE DIST BUILD + TYPE DEFINITIONS
-    // create the dts files
-    // getting inspiratin from here: https://github.com/OfficeDev/office-ui-fabric-react/blob/master/packages/office-ui-fabric-react/tsconfig.json
     "declaration": true,
     "sourceMap": true,
-    // if isolatedModules is true we cannot get type definitions to be generated.
     "isolatedModules": false,
-    // apparently we cannot create dts if allowJs is false.  this could be an issue down the road,
-    // may need a distinct dist build step for dts then? -marcodi
     "allowJs": false,
-    // the normal build does not emit as it all happens in memory with webpack
     "noEmit": false,
     "jsx": "react",
     "module": "commonjs",
