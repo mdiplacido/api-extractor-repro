@@ -2,9 +2,10 @@
   "name": "api-extractor-repro",
   "version": "1.0.0",
   "description": "Small project which reproduces the default export issue found in api extractor",
+  "typings": "dist/api-extractor-repro.d.ts",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json && api-extractor run --local"
   },
   "author": "mdiplacido",
   "license": "ISC",

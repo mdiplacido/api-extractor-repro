@@ -1,0 +1,17 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/api-extractor.schema.json",
+    "compiler" : {
+      "configType": "tsconfig",
+      "rootFolder": "."
+    },
+    "project": {
+      "entryPointSourceFile": "dist/index.d.ts"
+    },
+    "dtsRollup": {
+        "enabled": true
+    },
+    "apiReviewFile": {
+        "enabled": true,
+        "apiReviewFolder": "api-review"
+    }
+  }
